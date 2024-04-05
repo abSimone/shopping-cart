@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "441128215855",
+    "firebase_url": "https://flutter-ap-001-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "flutter-ap-001",
+    "storage_bucket": "flutter-ap-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441128215855:android:92d1a31d44a9c19561adda",
+        "android_client_info": {
+          "package_name": "com.dc.shopping_cart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWBydPv0_-6QiH0RIAsseOGoVIa2FZ7Sk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
