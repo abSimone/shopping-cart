@@ -8,6 +8,7 @@ import 'package:shopping_cart/ui/screens/landing.dart';
 // flutter pub add firebase_auth
 
 void main() async {
+  const asdrubale = 10;
   const pippofranco = 15;
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
