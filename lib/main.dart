@@ -8,6 +8,7 @@ import 'package:shopping_cart/ui/screens/landing.dart';
 // flutter pub add firebase_auth
 
 void main() async {
+  const pippofranco = 15;
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
@@ -32,11 +33,10 @@ class MyApp extends StatelessWidget {
       home: StreamBuilder(
         stream: FirebaseAuth.instance.authStateChanges(),
         builder: (context, snapshot) {
-
-          if(snapshot.connectionState == ConnectionState.waiting){
+          if (snapshot.connectionState == ConnectionState.waiting) {
             return CircularProgressIndicator();
           }
-          if(snapshot.hasData) {
+          if (snapshot.hasData) {
             return const ProductListScreen();
           }
           return const LandingScreen();
